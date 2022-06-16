@@ -1,0 +1,23 @@
+<div *ngIf="userDetails; else userNotFound">
+  <div class="row">
+    <div
+      class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 shadow text-center m-auto w-50 p-5"
+    >
+      <h3>
+        <span class="text-decoration-underline">Username</span>
+        : {{ userDetails.username }}
+      </h3>
+      <h3>
+        <span class="text-decoration-underline">Email</span>
+        : {{ userDetails.email }}
+      </h3>
+      <h3>
+        <span class="text-decoration-underline">Phone</span>
+        : {{ userDetails.phoneNo }}
+      </h3>
+    </div>
+  </div>
+</div>
+<ng-template #userNotFound>
+  <p class="display-4 text-center">User Not Found!</p>
+</ng-template>

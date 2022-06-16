@@ -1,0 +1,29 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(249, 249, 249);
+  margin-bottom: 50px;
+}
+
+.nav button {
+  display: inline-block;
+  margin: 5px;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: blue;
+  }

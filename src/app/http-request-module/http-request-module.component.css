@@ -1,0 +1,20 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  row-gap: 2rem;
+  column-gap: 5rem;
+}
+
+svg{
+  margin-top: 8px ;
+}
+
+li, .list{
+  margin-left: 50px;
+}
+
+ul{
+  list-style-type: circle;
+}

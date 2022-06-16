@@ -1,0 +1,17 @@
+<div>
+  <div class="nav">
+    <div class="d-flex">
+      <img
+        src="https://toppng.com/uploads/preview/home-icon-home-house-icon-house-icon-free-11553508857ouiuhg9nsa.png"
+        alt=""
+        class="ms-2 mt-2"
+      />
+      <p class="mt-3 ms-2"><a routerLink="/users">Users List</a></p>
+    </div>
+    <div class="d-flex gap-2">
+      <!-- <button class="btn btn-secondary" disabled>User Info</button> -->
+      <button class="btn btn-primary" (click)="onLoadLogin()">Log out</button>
+    </div>
+  </div>
+  <router-outlet></router-outlet>
+</div>

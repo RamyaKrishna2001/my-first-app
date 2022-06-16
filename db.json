@@ -1,0 +1,67 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "studentName": "Ramya ",
+      "email": "ramya@gmail.com",
+      "class": "BSC",
+      "phoneNo": 7993140266
+    },
+    {
+      "id": 2,
+      "studentName": "Pavan",
+      "email": "pavan@gmail.com",
+      "class": "BSC",
+      "phoneNo": 4857123695
+    },
+    {
+      "id": 3,
+      "studentName": "Samyuktha",
+      "email": "samyuktha@gmail.com",
+      "class": "BTech",
+      "phoneNo": "2574123695"
+    },
+    {
+      "id": 4,
+      "studentName": "Krishna",
+      "email": "krishna@gmail.com",
+      "class": "10th",
+      "phoneNo": 3251478963
+    },
+    {
+      "id": 5,
+      "studentName": "Pallavi",
+      "email": "pallavi@gmail.com",
+      "class": "10th",
+      "phoneNo": 9654712583
+    },
+    {
+      "id": 7,
+      "studentName": "Manoj",
+      "email": "manoj@gmail.com",
+      "class": "MCA",
+      "phoneNo": 9515110256
+    },
+    {
+      "id": 8,
+      "studentName": "Shravani",
+      "email": "shravz@gmail.com",
+      "class": "BTech",
+      "phoneNo": 8989275604
+    },
+    {
+      "studentName": "Ram",
+      "class": "Degree",
+      "email": "ram@gmail.com",
+      "phoneNo": "9988996589",
+      "id": 10
+    },
+    {
+      "studentName": "Meenakshi",
+      "class": "12th",
+      "email": "meenakshi@gmail.com",
+      "phoneNo": "9299307548",
+      "id": 11
+    }
+  ]
+}
